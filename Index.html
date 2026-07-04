@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Teen Budget Traker </title>
+</head>
+<body>
+    <h1>Hi, everyone to your Budget Tracker</h1>
+    <p>You may have seen many budget traker for adults but this Tracker is make different it is made for you. Yes you anything that you want to buy, according to your pocket money this shows you the time that you have to wait and collect money for that thing.</p>
+    <div class="box">
+        <lable>What are you saving for? </lable>
+        <input type="text" id="goal-name" placeholder="e.g- gaming console">
+        <label>How much money you have already saved? ($)</label>
+        <input type="number" id="current-saving" placeholder="e.g. , 15" value="0">
+        <label>How much does it cost?($)</label>
+        <input type="number" id="goal-cost" placeholder="e.g: 50">
+        <label>How much pocket money do you save per week?($) obiviously after buying all snacks.</label>
+        <input type="number" id="weekly-saving" placeholder="e.g-10">
+        <button id="calc-btn"> calculate Weeks </button>
+        <div id="dashboard" style="display:none; margin-top: 25px;">
+            <h2>Your plan</h2>
+            <div class="progress">
+                <div id="probar">0%</div>
+            </div>
+        </div>
+        <div class="statsg">
+            <div class="statsc">
+                <h4>Timeline</h4>
+                <p id="statsw">-</p>
+            </div>
+            <div class="statsc">
+                <h4>Daily Target</h4>
+                <p id="statsd">-</p>
+            </div>
+            <div class="statsc">
+                <h4> Status</h4>
+                <p id="statss">-</p>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
