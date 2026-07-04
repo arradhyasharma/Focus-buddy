@@ -84,3 +84,11 @@ button{
     font-weight: bold;
     color: #fff;
 }
+
+.time{
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgb(63, 191, 241);
+    color:white; 
+    padding: 5px 5px;
