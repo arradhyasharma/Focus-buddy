@@ -1,0 +1,86 @@
+body {
+    font-family: Montserrat;
+    background-color:rgb(0, 186, 186);
+    color:aliceblue;
+    padding:40px; 
+    text-align:center;
+}
+.box {
+    background-color: rgb(98, 186, 157);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block; 
+    text-align: left;
+}
+input {
+    display:block;
+    margin: 10px 0 20px 0;
+    padding: 8px;
+    width:240px;
+    background:#333;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(69, 144, 119);
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#result{
+    margin-top: 20px;
+    font-size:18px;
+    font-weight:bold;
+    color:#d8dfdf
+}
+.progress{
+    background-color: #333;
+    border-radius: 15px;
+    position: relative;
+    margin: 15px 0;
+    height: 33px;
+    width: 750px;
+    overflow: hidden;
+}
+#probar{
+    background-color: #4caf50;
+    height:100%;
+    width:0%;
+    color:white;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    transition: width 0.6s ease-in-out;
+}
+.statsg{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+.statsc{
+    background-color: #252525;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #383838;
+    text-align: center;
+}
+.statsc h4{
+    margin: 0 0 5px 0;
+    color: #888;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.statsc p {
+    margin: 0;
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+}
