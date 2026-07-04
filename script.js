@@ -1,3 +1,15 @@
+function updateTime(){
+    var currentTime = new Date().toLocaleString();
+    var timeText = document.querySelector("#timeElement");
+    timeText.innerHTML = currentTime;
+    }
+
+    setInterval(updateTime,1000);
+
+
+
+
+
 const calcButton = document.getElementById("calc-btn");
 
 calcButton.addEventListener("click", function(){
