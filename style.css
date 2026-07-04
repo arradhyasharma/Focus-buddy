@@ -91,4 +91,23 @@ button{
     align-items: center; 
     background-color: rgb(63, 191, 241);
     color:white; 
-    padding: 5px 5px;
+    padding: 5px 5px;}
+    
+.error-button{
+        background-color: #ac12ac;
+        color:white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+     }
+     .error-button:hover{
+        background-color:#7a177a
+     }
+
+
+
+
+
+
+    
