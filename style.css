@@ -252,3 +252,21 @@ button:hover {
 .lumsum-btns:hover {
     background-color: #dc2626;
 }
+.error{
+        text-align: center;
+    }
+    .error-button{
+        background-color: #ac12ac;
+        color:white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+     }
+     .error-button:hover{
+        background-color:#7a177a
+     }
+
+
+    
+
